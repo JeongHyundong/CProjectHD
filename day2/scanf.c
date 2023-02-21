@@ -11,7 +11,7 @@ int main1() {
 
 	printf("정수를 입력하세요>>");      // 출력 printf
 	scanf("%d", &num);           // 입력 scanf
-	printf("입력한 값은 %d 입니다. \n", num);
+	printf("입력한 값은 %d 입니다. \n", num/10);
 
 	printf("문자열을 입력하세요>>");
 	scanf("%s", str);             // 문자열은 &기호 없이
