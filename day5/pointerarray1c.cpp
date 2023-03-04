@@ -16,7 +16,7 @@ int main() {
 	printf("첫번째 요소 : %p\n", arr[0]);       //줄인말
 
 	printf("두번째 요소 : %p\n", (&*arr) + 1);      // &참조자와 *역참조자는 서로 상쇄된다
-	printf("네번째 요소 : %d\n", *(arr+3));         //4
+	printf("네번째 요소 : %d\n", *(arr+3));         //4 나와야함
 
 	return 0;
 }
