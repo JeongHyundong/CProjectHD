@@ -17,7 +17,7 @@ int main() {
 	//영어단어를 입력받아서 역순으로 출력하는 프로그램
 	char eng[64] = { '\0', };
 	char reverse[64] = { 0, };
-	
+
 	printf("단어 입력:");
 	scanf("%s", eng);
 	//null문자가 아닌 시점부터
@@ -38,7 +38,7 @@ int main() {
 		j++;
 	}
 	printf("%s", reverse);
-	
+
 
 	return 0;
 }

@@ -22,13 +22,13 @@ int main4() {
 
 	char mind[30] = "qwerasdzxcv";
 	printf("%s\n", mind);
-	
+
 	mind[7] = "qwerasdzxcv";   //8번째 요소로 null문자 대입
 	printf("%s\n", mind);
-	
+
 	mind[1] = "qwerasdzxcv";   //2번째 요소로 null문자 대입
 	printf("%s\n", mind);
-	
+
 	char str[50] = { 0, };          //50칸모두 null문자로 초기화
 	printf("문자열을 입력하세요:");
 	scanf("%s", str);
@@ -36,6 +36,6 @@ int main4() {
 	printf("입력된 문자열: %s\n", str);
 
 
-	
+
 	return 0;
 }

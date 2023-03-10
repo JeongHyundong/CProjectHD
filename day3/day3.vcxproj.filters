@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="review.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="if1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -28,6 +25,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="if4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="review.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

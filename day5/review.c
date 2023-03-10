@@ -1,72 +1,72 @@
-ï»¿// DAY5.cpp : ì´ íŒŒì¼ì—ëŠ” 'main' í•¨ìˆ˜ê°€ í¬í•¨ë©ë‹ˆë‹¤. ê±°ê¸°ì„œ í”„ë¡œê·¸ëž¨ ì‹¤í–‰ì´ ì‹œìž‘ë˜ê³  ì¢…ë£Œë©ë‹ˆë‹¤.
+// DAY5.cpp : ÀÌ ÆÄÀÏ¿¡´Â 'main' ÇÔ¼ö°¡ Æ÷ÇÔµË´Ï´Ù. °Å±â¼­ ÇÁ·Î±×·¥ ½ÇÇàÀÌ ½ÃÀÛµÇ°í Á¾·áµË´Ï´Ù.
 //
 
 #include <stdio.h>
 
 int main0()
 {
-	//ì œì–´ë¬¸ : ì¡°ê±´ë¬¸, ë°˜ë³µë¬¸, ê¸°íƒ€ì œì–´ë¬¸
-	//ì œì–´ë¬¸ì´ëž€, ì›ëž˜ ì½”ë“œëŠ” ìœ„ì—£ ì•„ëž˜ë¡œ ì™¸ìª½ì—ì„œ ì˜¤ë¥¸ìª½ìœ¼ë¡œ ì§„í–‰ ë˜ì§€ë§Œ ì´ íë¦„ì„ ë°”ê¿€ ìˆ˜ ìžˆëŠ” íë¦„
+	//Á¦¾î¹® : Á¶°Ç¹®, ¹Ýº¹¹®, ±âÅ¸Á¦¾î¹®
+	//Á¦¾î¹®ÀÌ¶õ, ¿ø·¡ ÄÚµå´Â À§¿§ ¾Æ·¡·Î ¿ÜÂÊ¿¡¼­ ¿À¸¥ÂÊÀ¸·Î ÁøÇà µÇÁö¸¸ ÀÌ Èå¸§À» ¹Ù²Ü ¼ö ÀÖ´Â Èå¸§
 	//if, switch, for, while, break, continue...
-	
-	//ì¡°ê±´ë¬¸: if~else
-	//if (){}: ()ì—ëŠ” ì¡°ê±´ì‹ì„ {}ì—ëŠ” ì¡°ê±´ì‹ì´ ë§žì„ë•Œ ì‹¤í–‰ë  ì½”ë“œë¥¼ ì ìœ¼ë©´ ë¨
+
+	//Á¶°Ç¹®: if~else
+	//if (){}: ()¿¡´Â Á¶°Ç½ÄÀ» {}¿¡´Â Á¶°Ç½ÄÀÌ ¸ÂÀ»¶§ ½ÇÇàµÉ ÄÚµå¸¦ ÀûÀ¸¸é µÊ
 	if (5 == 5) {
 
-		printf(" 5ëŠ” 5ì™€ ê°™ë‹¤\n");
+		printf(" 5´Â 5¿Í °°´Ù\n");
 	}
 	else if (5 != 5) {
-		printf("5ëŠ” 5ì™€ ê°™ì§€ ì•Šë‹¤\n");
+		printf("5´Â 5¿Í °°Áö ¾Ê´Ù\n");
 	}
-    else  {
-		printf("ëª¨ë¥´ê² ë‹¤\n");
+	else {
+		printf("¸ð¸£°Ú´Ù\n");
 	}
-	//ì¡°ê±´ë¬¸ switch~case~break
-	//switch(){}: ë‚´ìš©ê³¼ caseì˜ ë‚´ìš©ì´ ê°™ì€ ë¶€ë¶„ë¶€í„° ì½”ë“œ ì‹¤í–‰
+	//Á¶°Ç¹® switch~case~break
+	//switch(){}: ³»¿ë°ú caseÀÇ ³»¿ëÀÌ °°Àº ºÎºÐºÎÅÍ ÄÚµå ½ÇÇà
 	switch (5) {
 	case 1:
-		printf("ëŒ€ìƒì€ 1ê³¼ ê°™ë‹¤");
+		printf("´ë»óÀº 1°ú °°´Ù");
 		break;
-		
+
 	case 5:
-		printf("ëŒ€ìƒì€ 5ê³¼ ê°™ë‹¤");
+		printf("´ë»óÀº 5°ú °°´Ù");
 		break;
 	default:
-		printf("ëŒ€ìƒê³¼ ê°™ì€ ê°’ì´ ì—†ë‹¤");
+		printf("´ë»ó°ú °°Àº °ªÀÌ ¾ø´Ù");
 
 	}
- 
-	//ë°˜ë³µë¬¸ while
-	//whileì€ í”Œëž˜ê·¸ iê°€ í•„ìš”, ì¤‘ë³µì½”ë“œ ê´€ë¦¬
+
+	//¹Ýº¹¹® while
+	//whileÀº ÇÃ·¡±× i°¡ ÇÊ¿ä, Áßº¹ÄÚµå °ü¸®
 	int i = 0;
 	while (i < 3) {
-		printf("ë°˜ë³µíšŸìˆ˜ %dë²ˆ",i + 1); //i ë³´ë‹¤ 1 ë” í° ìˆ«ìž ì¶œë ¥
-		i++;   //ë³€ìˆ˜ì— ë“¤ì–´ìžˆëŠ” ê°’ì„ 1 ì¦ê°€
+		printf("¹Ýº¹È½¼ö %d¹ø", i + 1); //i º¸´Ù 1 ´õ Å« ¼ýÀÚ Ãâ·Â
+		i++;   //º¯¼ö¿¡ µé¾îÀÖ´Â °ªÀ» 1 Áõ°¡
 	}
-	
+
 	for (int i = 0; i < 3; i++) {
-		printf("\n ë°˜ë³µíšŸìˆ˜ %díšŒ", i + 1); //ë°˜ë³µí•˜ê³ ìž í•˜ëŠ” ì½”ë“œë§Œ ë‚¨ìŒ
+		printf("\n ¹Ýº¹È½¼ö %dÈ¸", i + 1); //¹Ýº¹ÇÏ°íÀÚ ÇÏ´Â ÄÚµå¸¸ ³²À½
 	}
-	
-	//ê¸°íƒ€ì œì–´ë¬¸ continue, break
-	//break : ë§Œë³µë¬¸ì„ ì¢…ë£Œ
-	//continue: ë°˜ë³µë¬¸ ì²˜ìŒ ()ìœ¼ë¡œ ëŒì•„ê°(1íšŒì„± ì·¨ì†Œ)
+
+	//±âÅ¸Á¦¾î¹® continue, break
+	//break : ¸¸º¹¹®À» Á¾·á
+	//continue: ¹Ýº¹¹® Ã³À½ ()À¸·Î µ¹¾Æ°¨(1È¸¼º Ãë¼Ò)
 	for (int i = 0; i < 3; i++) {
 		if (i == 2) {
-			break;  //i ê°€ 2ì¼ë•Œ ë°˜ë³µë¬¸ì´ ì¢…ë£Œ
+			break;  //i °¡ 2ÀÏ¶§ ¹Ýº¹¹®ÀÌ Á¾·á
 
 		}
-		
-		
+
+
 	}
 	for (int i = 0; i < 3; i++) {
 		if (i == 1) {
-			continue;  //continueë³´ë‹¤ ì•„ëž˜ì˜ ì½”ë“œëŠ” ë¬´ì‹œí•˜ê³  ìœ„ë¡œ ì˜¬ë¼ê°
+			continue;  //continueº¸´Ù ¾Æ·¡ÀÇ ÄÚµå´Â ¹«½ÃÇÏ°í À§·Î ¿Ã¶ó°¨
 
 		}
-			
+
 	}
-	
+
 	return 0;
 }
 
