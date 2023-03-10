@@ -15,16 +15,31 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pointer.c">
+    <ClCompile Include="review.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="pointer2.c">
+    <ClCompile Include="array1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="pointer3.c">
+    <ClCompile Include="string1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="pointerarray1.c">
+    <ClCompile Include="먼가이상하다.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="string2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="function1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="function2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="연습장.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="function3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

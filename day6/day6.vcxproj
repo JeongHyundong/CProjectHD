@@ -18,11 +18,22 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="array1.c" />
+    <ClCompile Include="function1.c" />
+    <ClCompile Include="function2.c" />
+    <ClCompile Include="function3.c" />
+    <ClCompile Include="review.c" />
+    <ClCompile Include="string1.c" />
+    <ClCompile Include="string2.c" />
+    <ClCompile Include="먼가이상하다.c" />
+    <ClCompile Include="연습장.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d663e43d-bf4a-4b84-b13a-62e0a280920d}</ProjectGuid>
-    <RootNamespace>day5</RootNamespace>
+    <ProjectGuid>{eb8dd335-401b-4dbb-999d-b1d0d3293089}</ProjectGuid>
+    <RootNamespace>day6</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -126,12 +137,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="pointer.c" />
-    <ClCompile Include="pointer2.c" />
-    <ClCompile Include="pointer3.c" />
-    <ClCompile Include="pointerarray1.c" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
